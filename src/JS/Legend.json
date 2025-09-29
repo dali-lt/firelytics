@@ -1,0 +1,42 @@
+[
+    {
+        "name" : "dem",
+        "classColor" : ["000", "fff"],
+        "class" : ["-9", "557"]
+    },
+    {
+        "name" : "pente",
+        "classColor" : ["5fa4d2", "6eff00", "e31a1c"],
+        "class" : ["Très faible pente", "Faible pente", "Moyenne à forte pente"]
+    },
+    {
+        "name" : "aspect",
+        "classColor" : ["6ee18b", "ca45a9", "aa64ef", "44cece", "dc1010", "deab13", "9eef4d", "3f6aea"],
+        "class" : ["Nord (N)", "Nord-Est (NE)", "Est (E)", "Sud-Est (SE)", "Sud (S)", "Sud-Ouest (SW)", "Ouest (W)", "Nord-Ouest (NW)"]
+    },
+    {
+        "name" : "occ_sol",
+        "classColor" : ["31d627", "3fa7ed", "62a85e", "969696", "e0d020", "e7a856", "f000ff"],
+        "class" : ["Autres formations forestières", "Eaux et zones humides", "Superficies forestières", "Zones urbanisées", "Terres agricoles", "Pâturages", "Terres incultes"]
+    },
+    {
+        "name" : "den_for",
+        "classColor" : ["33a02c"],
+        "class" : ["Forêts"]
+    },
+    {
+        "name" : "ndvi",
+        "classColor" : ["a6cee3", "efc073", "dcd736", "ebef4d", "72e14f"],
+        "class" : ["Eau/ Zones construites", "Sol nu/ Urbanisation", "Végétation faible/ clairsemée", "Végétation modérée", "Végétation dense et saine"]
+    },
+    {
+        "name" : "ndwi",
+        "classColor" : ["cedeb9", "fff607", "85dc71", "67e13b"],
+        "class" : ["Zones séches/ sol nu", "Faible humidité/ végétation séche", "Humidité modérée", "Sol humide/ végétation fraîche"]
+    },
+    {
+        "name" : "savi",
+        "classColor" : ["d4510d", "ebef4d", "99e16f", "287d22"],
+        "class" : ["Sol nu/ trés peu de végétation", "Végétation faible", "Végétation modérée", "Végétation dense et en bonne santé"]
+    }
+]

@@ -1,0 +1,60 @@
+.draw-btn {
+    position: fixed;
+    bottom: 105px;
+    right: 70px;
+    width: 40px;
+    height: 40px;
+    background-color: #24201de3;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    z-index: 1000;
+  }
+
+.draw-btn.active{
+    color: #ff660000;
+    background-color: #792e29;
+}
+.draw-btn .draw-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.draw-btn:hover {
+    transform: scale(1.1);
+}
+
+.leaflet-draw {
+    position: fixed;
+    right: 60px;
+    bottom: 70px;
+    width: 40px;
+    border: none !important;
+}
+
+.leaflet-draw-toolbar{
+    border: none !important;
+}
+.leaflet-touch .leaflet-bar a {
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #d9d4cb !important;
+}
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-polygon {
+    background-position: -25px 4px !important;
+    border-radius: 10px 10px 0 0 !important;
+}
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-rectangle {
+    background-position: -55px 5px !important;
+    border-radius: 0 0 10px 10px !important;
+}
+
+  .leaflet-layer {
+    clip-path: none;
+    transition: clip-path 0.3s ease;
+  }
+  
+  .leaflet-svg-clip {
+    z-index: 999;
+    pointer-events: none;
+  }
