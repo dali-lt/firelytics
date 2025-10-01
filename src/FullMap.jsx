@@ -2,7 +2,7 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import 'leaflet/dist/leaflet.css';
 import './CSS/MapStyle.css';
-import Logo from './Images/FirelyticsLogo1.png';
+import Logo from '../public/FirelyticsLogo1.png';
 import BottBox from './BottomIcon.jsx';
 import L from 'leaflet';
 import MiddleBox from './MiddleIcons.jsx';
