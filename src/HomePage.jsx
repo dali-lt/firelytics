@@ -1,6 +1,6 @@
 // HomePage.jsx
 import { useRef, useEffect, useState } from 'react';
-import LOGO from '../public/FirelyticsLogo.png';
+import LOGO from '/FirelyticsLogo.png';
 import Menu from './Images/Menu.svg';
 import BoxHeader from './Header.jsx';
 import PresBox from './PresentationBox.jsx';
